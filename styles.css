@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('path/to/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 40px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+}
+
+.icons img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.stories {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.stories .story {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.posts {
+    padding: 20px;
+}
+
+.post {
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.post-content img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.more-images {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.chat-section {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-body {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.message {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.chat-footer {
+    display: flex;
+}
+
+.chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.chat-footer button {
+    padding: 10px;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+}
+
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.settings-modal h2 {
+    margin-top: 0;
+}
+
+.settings-modal label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.settings-modal select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
